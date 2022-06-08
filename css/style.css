@@ -31,10 +31,10 @@ padding: 0;
     margin-bottom: 100px;
 }
 .site-navigation {
-    display: inline-block;
+    display: block;
     width: 900px;
     text-align: center;
-    margin: 74px;
+    margin: 74px auto;
     padding: 0;
 }
 .site-navigation li {
@@ -129,13 +129,15 @@ font-size: 30px;
 }
 
 .footer {
-    display: inline-block;
+    display: block;
     width: 186px;
     text-align: center;
-    padding: 0;
+    padding-bottom: 72px;
 }
 
 .button {   
+    display: block;
+    margin: 0 auto;
     padding: 26px 36px;
     font-size: 20px;
     line-height: 24px;

@@ -59,80 +59,42 @@ padding: 0;
     color:blue
 }
 
-.one {
+.visibility-none {
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+}
+   
+.category {
     margin-top: 32px;
     margin-bottom: 29px;
     text-transform: uppercase;
 }
 
-.two{
+.title {
 margin-bottom:35px;
 font-size: 30px;
 }
 
-.three {
+.description {
     margin-bottom: 129px;
+    font-weight: 24px;
 }
 
-
-.lifestyle-list {
+.site-content-list {
     margin: 0;
     padding: 0;
     font-size: 0;
 }
-
-.lifestyle-list-item {
+.site-content-list-item {
     width: 420px;
     display: inline-block;
     margin-right: 60px;
     font-size: 14px;
 }
 
-.lifestyle-list-item:nth-child(2n) {
+.site-content-list-item:nth-child(2n) {
     margin-right: 0;
-}
-
-.photodiary-list {
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-
-}
-.photodiary-list-item{
-    width: 420px;    
-    display: inline-block;
-    margin-right: 60px;
-    font-size: 14px;
-}
-.photodiary-list-item:nth-child(2n) {
-    margin-right: 0;
-}
-
-.lifestyle2 {
-    margin: 0;
-}
-.lifestyle2-list {
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-}
-
-.lifestyle2-list-item {
-    width: 420px;    
-    display: inline-block;
-    margin-right: 60px;
-    font-size: 14px;
-}
-
-.lifestyle2-list-item:nth-child(2n) {
-    margin-right: 0;
-}
-
-.footer {
-    display: block;
-    width: 186px;
-    text-align: center;
-    padding-bottom: 72px;
 }
 
 .button {   

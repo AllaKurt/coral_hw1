@@ -8,10 +8,9 @@ box-sizing: inherit;
 
 
 body {
- font-family: "Playfair Display", "Arial" , sans-serif;
- color: #626262;
+ font-family: "Open Sans", "Roboto" , sans-serif;
  font-size: 14px;
- line-height: 24px;
+ line-height: 26px;
 }
 
 img { 
@@ -23,7 +22,7 @@ padding: 0;
 }
 
 .conteiner {
-  width: 900px; 
+  width: 1110px; 
   margin: 0 auto;
 }
 
@@ -31,20 +30,11 @@ padding: 0;
     margin-bottom: 100px;
 }
 .site-navigation {
-    display: block;
-    width: 900px;
-    text-align: center;
+    display: inline-block;
+    width: 900px;    
     margin: 74px auto;
     padding: 0;
 }
-.site-navigation li {
-  display: inline-block;
-  margin-right: 110px;
-}
-
-.site-navigation li:last-child {
-  margin-right: 0px;
- }
 
 .site-navigation a {
     font-size: 500;
@@ -98,7 +88,6 @@ font-size: 30px;
 }
 
 .button {   
-    display: block;
     margin: 0 auto;
     padding: 26px 36px;
     font-size: 20px;

@@ -10,11 +10,10 @@ body {
 }
 
 .conteiner {   
-  width: 1110px;
+  width: 1140px; 
   margin: 0 auto;
   padding: 0 13px;
-  margin-bottom: 109px;
-  margin-top: 44px;
+  
 }
 
 .clearfix::after {
@@ -23,13 +22,19 @@ body {
     clear: both;
 }
 
-
+.page-header {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    line-height: 32px;
+}
 /*------Logo------*/
 
 .site-logo {
     float:left;
     margin: 0;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #0f0101;
 }   
 
 .site-logo::first-letter {
@@ -39,25 +44,25 @@ body {
 /*--------Navigation-------*/
 
 .site-navigation  { 
-    float: right;  
-    width: 490px;     
-    margin: 0;
+    float: right;            
     margin-top: 10px;
-    list-style: none;
-    padding: 0;
+    list-style: none;    
     text-transform: uppercase;   
 }
 
 
-a {
-    text-decoration: none;
-    color:black
-}
 
 .site-navigation li {
-    float: left;
-    font-size: 14;        
-    line-height: 11px;
+    float: left;    
+    
+}
+
+.site-navigation a {
+    font-family: "Open Sans Black", sans-serif;
+    text-decoration: none;
+    color: #0f0101;
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .site-navigation li:not(:last-child) {
@@ -74,7 +79,13 @@ a {
     position:relative;
     height: 600px;
 }
-  .slide-title {
+
+.slide-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.slide-title {
     position: absolute;    
     color: #ffffff;
     top: 50%;
@@ -82,7 +93,7 @@ a {
     transform: translate(-50%,-50%);    
   }
   
-  .slide-name {
+.slide-name {
     font-family: "Roboto Black", sans-serif;
     font-size: 60px;
     line-height: 82px;
@@ -91,7 +102,7 @@ a {
     padding: 0;
     width: 775px;
   }
-  .slide-pos {
+.slide-pos {
     font-family: "Roboto Light", sans-serif;
     font-size: 24px;
     line-height: 54px;
@@ -171,7 +182,7 @@ h2::after {
 }
 .new-collection-list li {
     float: left;
-    list-style: none; 
+    list-style: none;    
     width: 255px; 
     height: 322px;  
     
@@ -205,6 +216,7 @@ h2::after {
     width: 201px;
     text-align: left; 
     height: 40px; 
+    text-decoration: none;
          
 }
  .category-item a:hover {

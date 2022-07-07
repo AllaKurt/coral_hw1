@@ -76,8 +76,7 @@ body {
 
   /*------Slide------*/
   .slide {
-    position:relative;
-    height: 600px;
+    position:relative;    
 }
 
 .slide-img img {
@@ -112,36 +111,58 @@ body {
   }
 
   /*-------Slide Button------*/
-  .btn-left,
-  .btn-right {
+
+.button-arrow {
     position: absolute;
-    width: 104px;
-    height: 104px;    
-    border: none;
-    cursor: pointer;
-    background-color: #54a18f;    
+    width: 1110px;
+    height: auto;    
     top: 50%;
-    left: 50%;   
-    font-size: 100px;
-    color: #ffffff;
-    text-align: center;    
-
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
+  
+.btn-left,
+.btn-right {     
+  width: 104px;
+  height: 104px;
+  background-color: rgb(78, 198, 171);
+  opacity: 0.651;
+  cursor: pointer;
+  border: none;  
+}
 
-  .btn-left {
-     float: left;
-     transform: translate(-500%,-50%);
- }
+.btn-left {
+    float: left;
+}
+.icon-arrow-left {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 38px;
+    background-image: url('/img/module_5/icon/arrow_left.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
- .btn-right {
+.btn-right {
     float: right;
-    transform: translate(400%,-43%);
- }
+}
+.icon-arrow-right {
+  position: relative;
+  display: inline-block;
+  width: 22px;
+  height: 38px;
+  background-image: url('/img/module_5/icon/arrow_right.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
  .btn-left:hover,
  .btn-right:hover {
-    background-color: #1abc9c;
-    opacity: 1;
+    background-color: rgb(26, 188, 156);   
  }
 
   /*-------Section New Collection------*/
@@ -238,7 +259,6 @@ h2::after {
 
 .overlay-btn {
     position: absolute;
-    width: 235px;
     height: 262px;
     background-color: #000000;
     opacity: 0;

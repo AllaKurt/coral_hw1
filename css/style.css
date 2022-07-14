@@ -50,15 +50,12 @@ body {
     text-transform: uppercase;   
 }
 
-
-
 .site-navigation li {
-    float: left;    
-    
+    float: left;     
 }
 
 .site-navigation a {
-    font-family: "Open Sans Black", sans-serif;
+    font-family: "Open Sans Bold", sans-serif;
     text-decoration: none;
     color: #0f0101;
     font-size: 14px;
@@ -213,18 +210,19 @@ h2::after {
 }
  .new-collection-card {
     position: relative;
- }
+ }    
+    
+.new-collection-img {         
+    display: block;
+}
 
-.category-price-item {        
+.category-price-item {
+      
     font-family: "Roboto Black";
     font-size: 18px;    
     color: #ffffff;
-    
-    
 }
-.new-collection-img {       
-    display: block;
-}
+
 .category-item {
     margin: 0 auto;
 
@@ -235,43 +233,55 @@ h2::after {
     color: #ffffff;
     background-color: #515151;
     width: 201px;
-    text-align: left; 
+    text-align: left;
     height: 40px; 
     text-decoration: none;
+    
          
 }
- .category-item a:hover {
-    background-color: #1abc9c;
- }
-
+ 
 .price-item {
     float:right;
     height: 40px;
     width: 54px;
     background-color: #8c8c8c;
     margin: 0 auto;
-    text-align: center;
-    
+    text-align: center;    
 }
-.price-item:hover {
+
+.new-collection-card:hover .price-item {
     background-color: #7fd9c7;
+}
+.new-collection-card:hover .category-item a {
+    background-color: #1abc9c;
 }
 
 .overlay-btn {
     position: absolute;
     height: 262px;
-    background-color: #000000;
+    width: 235px;
+    background-color: rgba(0, 0, 0, 0.45);
     opacity: 0;
     margin: 10px;
 }
 
-.new-collection-card:hover .overlay-btn {
-    opacity: 0.549;
+.new-collection-card:hover .overlay-btn { 
+    opacity: 1;
 }
 
+.overlay-btn-top {
+    position: absolute; 
+    width: 166px;   
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
 .btn {
-    float: right; 
-    margin-right: 8px;
+    float: left;
+    position: relative;
     margin-bottom: 8px;
     width: 50px;
     height: 50px;
@@ -279,14 +289,80 @@ h2::after {
     border: 1px solid #fff;
     color: #fff;
     cursor: pointer;
-   
+}
+.btn:not(:last-child) {
+    margin-right: 8px;
 }
  
 .btn:hover {
     background-color: #1abc9c;
+    border: none;
+    opacity: 1;
 }
 
+.btn::after { 
+    display: block;
+    position: absolute;
+    content: ""; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+} 
+.btn:first-child::after {
+    background-image: url(/img/module_5/icon/heart.png);
+    width: 26px;
+    height: 22px;
+}
+.btn:nth-child(2)::after {
+    background-image: url(/img/module_5/icon/arrow.png);
+    width: 26px;
+    height: 22px;
+}
+.btn:nth-child(3)::after {
+    background-image: url(/img/module_5/icon/clock.png);
+    width: 25px;
+    height: 24px;
+}
 
+.overlay-btn-bottom {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-bottom {
+    position: relative;
+    width: 166px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0 17px;
+    
+}
+
+.btn-bottom:hover {
+    background-color: #323232;
+}
+
+.btn-bottom::before {
+    display: block;
+    position: absolute;
+    background-image: url(/img/module_5/icon/basket.png);
+    content: "";
+    width: 28px;
+    height: 27px;
+    top: 50%;
+    left: 13px;
+    transform: translateY(-50%);
+
+
+}
   
 
 

@@ -7,11 +7,15 @@
     <title>core_hw1</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
       rel="stylesheet"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -19,189 +23,235 @@
 
   <body>
     <header>
-      <div class="page-header conteiner clearfix">
-        <h1>
-          <a href="" class="site-logo">Mart</a>
-        </h1>
-        <nav>
-          <ul class="site-navigation clearfix">
+      <div class="page-header">
+        <nav class="page-nav conteiner">
+          <a href="" class="site-logo">MoGo</a>
+          <ul class="site-navigation">
             <li>
-              <a href="#">Home</a>
+              <a href="#">About</a>
             </li>
             <li>
-              <a href="#">About us</a>
+              <a href="#">Service</a>
             </li>
             <li>
-              <a href="#">Page</a>
-            </li>
-            <li>
-              <a href="#">Shop</a>
+              <a href="#">Work</a>
             </li>
             <li>
               <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">Contact us</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main>
-      <div class="slide clearfix">
-        <div class="slide-title">
-          <p class="slide-name">Affordable Paris Tours</p>
-          <p class="slide-pos">City Tours / Tour Tickets / Tour Guide</p>
-        </div>
-        <div class="button-arrow">
-          <button class="btn-left">
-            <span class="icon-arrow-left"></span>
-          </button>
-          <button class="btn-right">
-            <span class="icon-arrow-right"></span>
-          </button>
+    <main class="main-conteiner">
+      <section class="amazing-service conteiner">
+        <div class="title-amazing-service">
+          <span class="we-work-with">We work with</span>
+          <h2 class="amazing-service-name">Amazing service</h2>
         </div>
 
-        <div class="slide-img">
-          <img
-            src="/img/module_5/slide4.jpg"
-            alt="girls"
-            width="1600"
-            height="600"
-          />
-        </div>
-      </div>
-
-      <section class="new-collection">
-        <div class="name-new-collection">
-          <h2>New Collection</h2>
-        </div>
-        <ul class="new-collection-list clearfix">
-          <li>
-            <div class="new-collection-card">
-              <div class="overlay-btn">
-                <div class="btn-block">
-                  <div class="overlay-btn-top clearfix">
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                  </div>
-
-                  <div class="overlay-btn-bottom">
-                    <button class="btn-bottom">Add to card</button>
-                  </div>
-                </div>
-              </div>
-              <img
-                class="new-collection-img"
-                src="/img/module_5/category-2.jpg"
-                alt="boy in a blue"
-                width="255"
-                height="322"
-              />
-              <div class="category-price-item clearfix">
-                <h3 class="category-item"><a href="#">Blue Tshirt</a></h3>
-                <p class="price-item">$26</p>
-              </div>
-            </div>
+        <ul class="amazing-service-list">
+          <li class="amazing-service-item">
+            <h3 class="amazing-service-list-name icon_photography">
+              Photography
+            </h3>
+            <p class="amazing-service-list-titile">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
           </li>
 
-          <li>
-            <div class="new-collection-card">
-              <div class="overlay-btn">
-                <div class="btn-block">
-                  <div class="overlay-btn-top clearfix">
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                  </div>
-
-                  <div class="overlay-btn-bottom">
-                    <button class="btn-bottom">Add to card</button>
-                  </div>
-                </div>
-              </div>
-              <img
-                class="new-collection-img"
-                src="/img/module_5/category-1.jpg"
-                alt="girl in pink"
-                width="255"
-                height="322"
-              />
-              <div class="category-price-item clearfix">
-                <h3 class="category-item"><a href="#">Woman shirt</a></h3>
-                <p class="price-item">$31</p>
-              </div>
-            </div>
+          <li class="amazing-service-item">
+            <h3 class="amazing-service-list-name icon_desing">Web desing</h3>
+            <p class="amazing-service-list-titile">
+              Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.
+            </p>
           </li>
 
-          <li>
-            <div class="new-collection-card">
-              <div class="overlay-btn">
-                <div class="btn-block">
-                  <div class="overlay-btn-top clearfix">
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                  </div>
-
-                  <div class="overlay-btn-bottom">
-                    <button class="btn-bottom">Add to card</button>
-                  </div>
-                </div>
-              </div>
-              <img
-                class="new-collection-img"
-                src="/img/module_5/category-4.jpg"
-                alt="boy in yellow"
-                width="255"
-                height="322"
-              />
-              <div class="category-price-item clearfix">
-                <h3 class="category-item"><a href="#">Yellow tshirt</a></h3>
-                <p class="price-item">$21</p>
-              </div>
-            </div>
+          <li class="amazing-service-item">
+            <h3 class="amazing-service-list-name icon_creativity">
+              Creativity
+            </h3>
+            <p class="amazing-service-list-titile">
+              Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.
+            </p>
           </li>
 
-          <li>
-            <div class="new-collection-card">
-              <div class="overlay-btn">
-                <div class="btn-block">
-                  <div class="overlay-btn-top clearfix">
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                    <button class="btn"></button>
-                  </div>
+          <li class="amazing-service-item">
+            <h3 class="amazing-service-list-name icon_seo">SEO</h3>
+            <p class="amazing-service-list-titile">
+              Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+            </p>
+          </li>
 
-                  <div class="overlay-btn-bottom">
-                    <button class="btn-bottom">Add to card</button>
-                  </div>
-                </div>
-              </div>
-              <img
-                class="new-collection-img"
-                src="/img/module_5/category-3.jpg"
-                alt="girl in purple"
-                width="255"
-                height="322"
-              />
-              <div class="category-price-item clearfix">
-                <h3 class="category-item"><a href="#">Cool lingerie</a></h3>
-                <p class="price-item">$56</p>
-              </div>
-            </div>
+          <li class="amazing-service-item">
+            <h3 class="amazing-service-list-name icon_css">CSS/HTML</h3>
+            <p class="amazing-service-list-titile">
+              Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.
+            </p>
+          </li>
+
+          <li class="amazing-service-item">
+            <h3 class="amazing-service-list-name icon_digital">Digital</h3>
+            <p class="amazing-service-list-titile">
+              Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
           </li>
         </ul>
       </section>
+
+      <section class="meet-our-team conteiner">
+        <div class="title-meet-our-team conteiner">
+          <p class="who-we-are">Who we are</p>
+          <h2 class="meet-our-team-name">Meet our team</h2>
+          <span class="meet-our-team-text"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </span>
+        </div>
+
+        <ul class="meet-our-team-list">
+          <li class="meet-our-team-card">
+            <div class="card-overlay">
+              <div class="social-icon-block">
+                <ul class="social-icon-list">
+                  <li class="icon">
+                    <a class="facebook" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="twitter" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="pinterest" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="instagram" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <img
+                class="card-img"
+                src="/img/module_6/Layer 16.png"
+                alt="matthew dix"
+                width="380"
+                height="470"
+              />
+            </div>
+
+            <h3 class="card-name">Matthew Dix</h3>
+            <p class="title-card-name">Graphic Desing</p>
+          </li>
+
+          <li class="meet-our-team-card">
+            <div class="card-overlay">
+              <div class="social-icon-block">
+                <ul class="social-icon-list">
+                  <li class="icon">
+                    <a class="facebook" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="twitter" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="pinterest" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="instagram" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="/img/module_6/Layer 19.png"
+                alt="Christopher Campbell"
+                width="380"
+                height="470"
+              />
+            </div>
+            <p class="card-name">Christopher Campbell</p>
+            <p class="title-card-name">Branding/UX design</p>
+          </li>
+
+          <li class="meet-our-team-card">
+            <div class="card-overlay">
+              <div class="social-icon-block">
+                <ul class="social-icon-list">
+                  <li class="icon">
+                    <a class="facebook" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="twitter" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="pinterest" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                  <li class="icon">
+                    <a class="instagram" href="#">
+                      <span></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="/img/module_6/Layer 18.png"
+                alt="Michael Fertig"
+                width="380"
+                height="470"
+              />
+            </div>
+            <p class="card-name">Michael Fertig</p>
+            <p class="title-card-name">Developer</p>
+          </li>
+        </ul>
+      </section>      
     </main>
 
-    <footer class="footer">
-      <p class="footer-title">
-        All Rights Reserved &#169; Dokan &#124; Designec
-        <a href="#">ThemenGraph</a>
-      </p>
+    <footer >
+      <div class="footer conteiner">
+        <p class="footer-title">
+          © 2016 MoGo free PSD template by
+          <a href="#">Laaqiq</a>
+        </p>
+
+        <form class="footer-form" name="form" action="#" method="POST">
+          <div class="form-block">
+            <input class="form-email" type="email" name="page-email" id="page-email"
+              placeholder="Your Email...">
+            <input class="form-btn" type="submit" value="subscribe">
+          </div>
+        </form>
+      </div>
+      
+      
     </footer>
   </body>
 </html>

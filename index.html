@@ -5,23 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>core_hw1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" href="css/normalize.css" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
+    <header>
+      <div class="page-header">
+        <nav class="page-nav conteiner">
+          <a href="#" class="site-logo">Golden</a>
+          <ul class="site-nav">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-services conteiner">
+        <div class="name-section-services">
+          <h2 class="services">Services</h2>
+          <p class="title-services">Proin iaculis purus consequat sem cure</p>
+        </div>
+
+        <ul class="services-list">
+          <li class="services-list-item">
+            <h3 class="name-item icon_basket">E-Commerce</h3>
+            <p class="item-title">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+
+          <li class="services-list-item">
+            <h3 class="name-item icon_laptop">Responsive Web</h3>
+            <p class="item-title">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+
+          <li class="services-list-item">
+            <h3 class="name-item icon_locked">Web security</h3>
+            <p class="item-title">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="section-contact">
+        <div class="contact-conteiner conteiner">
+          <div class="name-section-contact">
+            <h2 class="contact">Contact us</h2>
+            <p class="title-contact">Proin iaculis purus consequat sem cure</p>
+          </div>
+          <form class="footer-form" name="form" action="#" method="Get">
+            <div class="footer-form-list">
+              <ul class="form-list">
+                <li class="form-item">
+                  <input
+                    class="form-input"
+                    type="text"
+                    placeholder="Your name *"
+                    name="name"
+                    id="user-name"
+                    required
+                  />
+                </li>
+                <li class="form-item">
+                  <input
+                    class="form-input"
+                    type="email"
+                    placeholder="Your e-mail *"
+                    name="e-mail"
+                    id="user-mail"
+                    required
+                  />
+                </li>
+                <li class="form-item">
+                  <input
+                    class="form-input"
+                    type="text"
+                    placeholder="Subject"
+                    id="subjuct"
+                  />
+                </li>
+              </ul>
+              <textarea
+                class="form-item user-message"
+                name="user-massage"
+                id="id-user-massage"
+                placeholder="Your message *"
+                required
+              ></textarea>
+            </div>
+            <button class="form-bt">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- <body>
     <header>
       <div class="page-header">
         <nav class="page-nav conteiner">
@@ -253,5 +368,5 @@
       
       
     </footer>
-  </body>
+  </body> -->
 </html>
